@@ -121,6 +121,13 @@
 
     
   }
+
+
+.bento-item:hover {
+    background: white;
+    transform: scale(1.1);
+    transition: 1s ease;
+  }
   
   /* Featured items */
   .feature-1 {

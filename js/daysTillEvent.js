@@ -18,12 +18,4 @@ const getDaysUntilEvent = (eventDate) => {
 };
 
 
-//Graduation Date
-const eventDate = "2025-06-13";
-const gradDays = getDaysUntilEvent( eventDate );
-console.log( gradDays );
-
-const elemDaysUntilGrad = document.querySelector('.daysUntilEvent');
-elemDaysUntilGrad.textContent = gradDays;
-elemDaysUntilGrad.setAttribute("datetime", gradDays );
 

@@ -15,3 +15,4 @@ const calculateAgeOf = (birthDate) => {
 
   return age;
 };
+
