@@ -28,6 +28,11 @@ background-size: cover;
     color: white;
   }
 
+  .bento-container-1 {
+    font-size: 1.3rem;
+    font-weight: 600;
+  }
+
  .feature-1, .feature-3 {
     color: white;
   }
@@ -35,4 +40,10 @@ background-size: cover;
   .feature-3 {
     background: var(--gradient-15);
   }
+
+
   
+  time {
+    font-size: 1.2rem;
+    
+  }
