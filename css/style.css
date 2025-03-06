@@ -1,11 +1,24 @@
+/* Install OpenProps */
+@import "https://unpkg.com/open-props";
+
+
+
+
+
 /* Diagnostic Styling */
-* {
+/* * {
   outline: 2px dotted gray;
-} 
+}  */
 
 
 /* temp background color */
 body {
-    background: peachpuff;
+    background: var(--gradient-12);
+
+
+  }
+
+  section:hover {
+    animation: var(--animation-fade-in) 1s;
   }
   

@@ -10,7 +10,7 @@ console.log("👍 Okay");
 
 // Age of Person, Place, or Thing
 // Unit Test
-const birthDate = "1973-09-29"; // YYYY-MM-DD format
+const birthDate = "1970-01-01"; // YYYY-MM-DD format
 // const birthDateOfSwoop = "September 29, 1973"; // Month DD, YYYY
 // const birthDateOfSwoop = "09/09/1973"; // MM/DD/YYYY
 const ageOfPerson = calculateAgeOf( birthDate );
