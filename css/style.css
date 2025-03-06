@@ -13,12 +13,17 @@
 
 /* temp background color */
 body {
-    background: var(--gradient-12);
-
-
+    /* background: var(--gradient-26); */
+    background-image: url("sunset-background.jpg");
+background-size: cover;
   }
 
   section:hover {
     animation: var(--animation-fade-in) 1s;
+  }
+
+  main {
+    font-family: poppins;
+    color: white;
   }
   
