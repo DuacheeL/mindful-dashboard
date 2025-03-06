@@ -24,6 +24,15 @@ background-size: cover;
 
   main {
     font-family: poppins;
+    font-weight: 500;
     color: white;
+  }
+
+ .feature-1, .feature-3 {
+    color: white;
+  }
+  
+  .feature-3 {
+    background: var(--gradient-15);
   }
   

@@ -15,4 +15,14 @@ const getDayStreak = (startDate) => {
   
     return streak;
   };
+
+
+//Days of Streaks
+const eventDate = "2024-10-15";
+const streakDays = getDayStreak( startDate );
+console.log( streakDays );
+
+const elemDayStreak = document.querySelector('.daysUntilEvent');
+elemDayStreak.textContent = gradDays;
+elemDayStreak.setAttribute("datetime", gradDays );
   

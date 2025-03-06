@@ -12,19 +12,59 @@
     justify-content: center;
     align-items: center;
   }
-  
-  .bento-container {
+
+  .bento-main-container {
+    width: 90%;
+    max-width: 1200px;
+    padding: 2rem;
+
+    display: grid;
+    grid-template-columns: 1fr; 
+    grid-template-rows: auto auto;
+    gap: 1rem; 
+}
+
+
+
+  .bento-container-1 {
 
     width: 90%;
     max-width: 1200px;
     padding: 2rem;
+ 
+    justify-content: center;
+    align-items: center;
   
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto auto;
     gap: 1rem;
 
-  background: rgba(255, 255, 255, 0.1);
+
+  background: rgba(240, 227, 227, 0.048);
+
+  backdrop-filter: blur(10px);
+  border-radius: 2rem;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+  
+
+  }
+
+
+
+  
+  .bento-container-2 {
+
+    width: 90%;
+    padding: 2rem;
+  
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    gap: 1rem;
+
+  background: rgba(240, 227, 227, 0.048);
 
   backdrop-filter: blur(10px);
   border-radius: 2rem;
@@ -34,6 +74,8 @@
     /* optional. fixed aspect ratio   */
     /*   aspect-ratio: 16/9; */
   }
+
+  
   
   .bento-item {
 
@@ -44,9 +86,8 @@
     align-items: center;
 
   position: relative;
-  background: rgba(255, 255, 255, 0.1);
+ 
   backdrop-filter: blur(5px);
-  border-radius: 1.5rem;
   padding: 1.5rem;
 
   border: 1px solid rgba(255, 255, 255, 0.2);
@@ -57,29 +98,64 @@
     cursor: pointer;
   }
   
-  .bento-item:hover {
+  .feature-1:hover {
     background: white;
     transform: scale(1.1);
+    transition: 1s ease;
 
-    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.15);
+    color: var(--cyan-3);
+   
+
+    box-shadow: 0 8px 32px var(--cyan-3);;
+  }
+
+  .feature-3:hover {
+    background: white;
+    transform: scale(1.1);
+    transition: 1s ease;
+
+    color: var(--pink-4);
+   
+
+    box-shadow: 0 8px 32px var(--pink-4);;
+
+    
   }
   
   /* Featured items */
   .feature-1 {
+  
     grid-column: span 1;
-    grid-row: span 1;
-    /* background: white; */
+ 
+    background: var(--gradient-22);
+    width: 100%;
+    height: 100%;
+
+    border-radius: 2rem;
+
   }
   
   .feature-2 {
     grid-column: span 1;
+    grid-row: span 1;
+    border-radius: 50rem;
   
   }
+
+ 
   
   .feature-3 {
-    grid-row: span 1;
+
+    grid-column: span 1;
+    width: 100%;
+    height: 100%;
+
+
+    border-radius: 2rem;
 
   }
+
+  
   
   /* Responsive "tablet" size */
   @media (max-width: 768px) {

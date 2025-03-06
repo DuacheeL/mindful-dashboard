@@ -26,8 +26,9 @@
 </head>
 <body>
     
-    <main class="bento-container">
+    <main class="bento-main-container">
 
+      <div class="bento-container-1">
         <!-- Time Clock-->
         <section class="bento-item feature-1" role="region" aria-label="Time">
           <time datetime="HH:MM:SS" class="time">
@@ -47,20 +48,23 @@
             <span class="dayOfWeek">Monday</span>
           </time>
         </section>
+      </div>
       
         <!-- Days Until...-->
-        <section class="bento-item" role="region" aria-label="dashboard widget">
-          <p>Days until an Event: <time datetime="" class="daysUntilEvent">000</time></p>
+         <div class="bento-container-2">
+        <section class="bento-item feature-5" role="region" aria-label="dashboard widget">
+          <p>Days until Graduation: <time datetime="" class="daysUntilEvent">000</time></p>
         </section>
       
         <section class="bento-item feature-2" role="region" aria-label="dashboard widget">
           <p>Days of streaks: <time datetime="" class="streakOfDays">000</time></p>
         </section>
       
-        <section class="bento-item" role="region" aria-label="dashboard widget">
+        <section class="bento-item feature-4" role="region" aria-label="dashboard widget">
           <p>Age of Person: <time datetime="" class="ageOfPerson">000</time></p>
         </section>
       </main>
+    </div>
 
 </body>
 </html>
